@@ -1,0 +1,17 @@
+.jumbotron { 
+    
+  background: url("dog.jpg") no-repeat;
+    background-size: auto;
+    position: 100%;
+     height:150vh;
+    margin-bottom: 10px;
+} 
+.jumbotron h{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.container{
+  margin:0 auto;
+  width: 600px;
+}

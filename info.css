@@ -1,0 +1,132 @@
+h1,h2,h3,h4,h5,h6,h6{
+font-family: 'Noto Sans TC', sans-serif;
+}
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.5;
+}
+p{
+    color:#123569;
+}
+img {    
+     max-width: 100%;
+ }
+
+header nav img{
+    width: 60px;
+}
+
+header a{
+    margin: 0 10px;
+}
+
+
+footer img{
+    width: 115px;
+    margin-bottom: 25px;
+}
+footer{
+    padding: 50px;
+}
+footer h6{
+    margin-bottom: 26px;
+}
+footer a{
+    color: #123569;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-right: 30px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+footer li a{
+    color: #123569;
+}
+
+/*各個版面大小*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    h1{
+        font-size: 36px;
+    }
+    #second h6{
+        margin-bottom:auto;  
+}
+    #third .outer{
+        margin-bottom:300px;
+    }
+    #third .outer img{
+     width: 100%   
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+ 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+.menu-btn{
+    width: 64px;
+    height: 64px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 7px;
+    box-sizing: border-box;
+    z-index: 99999;
+    cursor: pointer;
+}
+.menu-btn soan{
+    width:60%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+}
+.menu-box{
+    width: 40%;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: -40%;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+.menu-box a{
+    font-size: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+.menu-box.active{
+    right: 0!impottant;
+}
+.menu-btn.active span:first-child{
+    background: #ff0;
+}
+.menu-btn.active span:last-child{
+    background: #00f;
+}
+
+.menu-btn.active span:nth-child(2){
+    background: #00f;
+}
+
+
